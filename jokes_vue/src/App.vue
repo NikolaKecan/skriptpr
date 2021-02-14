@@ -4,9 +4,18 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">Aboutt</router-link>
     </div>
-    <router-view/>
+    <router-view/> <!--tag gde ce ruter da renderuje nase viewe. Svaka stranica je jedan view. A view se sastoji iz vise komponenti. -->
   </div>
 </template>
+
+
+
+<script>
+
+</script>
+
+
+
 
 <style>
 #app {
